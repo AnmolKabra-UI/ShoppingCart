@@ -117,7 +117,7 @@ const Cart = ({ setCartCount }) => {
         <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', display: 'flex', flexDirection: 'column', bgcolor: 'background.paper', boxShadow: 24, p: 2, borderRadius: 2, width: 450}}>
           <Typography variant="h5" sx={{ mb: 2, fontWeight: 'bold' }}>Purchase Complete</Typography>
           <Typography variant="body1" sx={{ mb: 3 }}>
-            Thank you for your purchase! Your order has been successfully placed. A confirmation email has been sent to your inbox with the deatils of your order. We hope to serve you again soon!
+            Thank you for your purchase! Your order has been successfully placed. A confirmation email has been sent to your inbox with the details of your order. We hope to serve you again soon!
           </Typography>
           <Button color="primary" sx={{ alignSelf: 'flex-end' }} onClick={handleGoBackHome}>
             GO BACK HOME
